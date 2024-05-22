@@ -1,0 +1,31 @@
+.containerNav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.menu {
+    display: inline-block;
+    font-weight: 500;
+    color: #FF7F08;
+    text-decoration: none;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.homeIcon {
+    width: 40px;
+    height: 40px;
+}
+
+.menu:hover,
+.menu:focus {
+    color: #c6e327;
+}
+
+.menu.active {
+    color: #c6e327;
+    display: inline-block;
+    text-decoration: none;
+  
+}

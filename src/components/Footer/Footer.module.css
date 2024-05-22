@@ -1,0 +1,9 @@
+.footerContainer{
+    width: 100%;
+    padding: 16px;
+    background: #ffffff1a;
+    border-top: 1px solid  #c6e327;
+    border-radius:  20px 20px 0 0;
+    font-size: 30px;
+    
+}

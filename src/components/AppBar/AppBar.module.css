@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    border-bottom: 1px solid  #c6e327;
+    box-shadow: 0 2px 4px #0000001a;
+    background: #ffffff1a;
+    border-radius: 0 0 20px 20px ;
+    font-size: 30px;
+  }
+
+  .menuContainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+
+  .logoText {
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 20px;
+    color: #c6e327;
+    transition: color 1s ease; 
+    animation: changeColor 4s infinite;
+    padding: 24px 0;
+    text-align: center;
+}
+
+.logoText span {
+    transition: color 1s ease;
+}
+
+.logoText:hover {
+    color: #FF7F08 !important;
+}
+.logoText:hover span {
+    color: #c6e327 !important;
+}
+
+@keyframes changeColor {
+    0%, 100% {
+        color: #c6e327;
+    }
+    50% {
+        color: #FF7F08; 
+    }
+}
+
+@keyframes changeSpanColor {
+    0%, 100% {
+        color: #FF7F08; 
+    }
+    50% {
+        color: #c6e327; 
+    }
+}
+
+.logoText span {
+    animation: changeSpanColor 4s infinite; 
+}

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-right: 26px;
+}
+.textMenu{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.text {
+    font-size: 16px;
+    text-align: center; 
+}
+
+.btnLogOut{
+    font-weight: 600;
+     font-size: 16px;
+    color:  #fafafa;
+    background-color: #FF7F08;
+    border-radius: 14px; 
+    border: 1px solid transparent;
+    padding: 12px;
+    transition: background-color 0.3s, color 0.3s, transform 0.3s;
+}
+.btnLogOut:hover{
+    background: #c6e327;
+    color: #000000;
+    transform: translateY(-1px);
+}
+
+.iconLogOut{
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+}
